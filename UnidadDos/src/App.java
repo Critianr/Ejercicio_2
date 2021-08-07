@@ -9,20 +9,21 @@ public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, TODOS!");
         // Computador def3 = new Computador(1);
+        System.out.println("PRIMERA PRUEBA");
         Computador pcs2[] = new Computador[1];
         pcs2[0] = new Portatil();
         PrecioTotal precioT2 = new PrecioTotal(pcs2);
         precioT2.mostrarTotales();
-
+        System.out.println("SEGUNDA PRUEBA");
         Computador pcs3[] = new Computador[2];
         pcs3[0] = new Portatil();
         pcs3[1] = new Escritorio();
         PrecioTotal precioT3 = new PrecioTotal(pcs3);
         precioT3.mostrarTotales();
-        
+        System.out.println("TERCERA PRUEBA");
         Computador pcs4[] = new Computador[4];
-        pcs4[0] = new Portatil(130000,0);
-        pcs4[1] = new Escritorio(55000,0);
+        pcs4[0] = new Portatil(130000);
+        pcs4[1] = new Escritorio(55000);
         pcs4[2] = new Portatil (106000, 65000);
         pcs4[3] = new Escritorio(68000, 180000);
         PrecioTotal precioT4 = new PrecioTotal(pcs4);

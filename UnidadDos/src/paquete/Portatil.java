@@ -9,12 +9,16 @@ public Portatil() {
     this.extraBatery = EXTRABATERY;
     this.extraCharger = EXTRACHARGER;    
 }
-public Portatil(int extraBatery, int extraCharger){
-    super();
+public Portatil(int extraBatery){
+    // super();
     this.extraBatery = extraBatery;
-    this.extraCharger = extraCharger;
+    this.extraCharger = EXTRACHARGER;
    }
-
+   public Portatil(int extraBatery, int extraCharger) {
+    // super();
+    this.extraBatery = extraBatery;
+    this.extraCharger = extraCharger;    
+}
    public double calcularPrecio(){
     // totalg = extraBatery + extraCharger;
        return super.calcularPrecio() + extraBatery + extraCharger;

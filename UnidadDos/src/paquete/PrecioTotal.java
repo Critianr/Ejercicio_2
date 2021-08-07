@@ -11,21 +11,23 @@ public class PrecioTotal {
         this.totalLaptops=0.0;       
     }
     public PrecioTotal(Computador listaComputadores[]) {
+        // super();
         this.totalDesktops=0.0;
         this.totalLaptops=0.0;
         this.totalPCs=0.0;       
-
+        
         this.listaComputadores = listaComputadores;
   
     }
     public void mostrarTotales() {
+        
         for(Computador el: listaComputadores){
             if(el instanceof Computador){
-                totalPCs = totalPCs + el.calcularPrecio();
+                totalPCs += el.calcularPrecio();
             }if(el instanceof Portatil){
-                totalLaptops = totalLaptops + el.calcularPrecio();
+                totalLaptops += el.calcularPrecio();
             }if(el instanceof Escritorio){
-                totalDesktops = totalDesktops + el.calcularPrecio();
+                totalDesktops += el.calcularPrecio();
             }
         }
         
