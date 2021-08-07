@@ -30,8 +30,8 @@ public class PrecioTotal {
             }
         }
         
-        System.out.println("El precio total de los computadores es de " + totalPCs);
-        System.out.println("La suma del precio de loçs Laptops es de " + totalLaptops);
-        System.out.println("La suma del precio de los Desktops es de " + totalDesktops);
+        System.out.println("El precio total de los computadores es de " + Math.round(totalPCs));
+        System.out.println("La suma del precio de los Laptops es de " + Math.round(totalLaptops));
+        System.out.println("La suma del precio de los Desktops es de " + Math.round(totalDesktops));
         }
        }

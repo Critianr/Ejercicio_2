@@ -18,7 +18,6 @@ public Portatil(int extraBatery){
     this.extraCharger = extraCharger;    
 }
    public double calcularPrecio(){
-    // totalg = extraBatery + extraCharger;
        return super.calcularPrecio() + extraBatery + extraCharger;
   
            

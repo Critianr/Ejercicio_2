@@ -21,8 +21,7 @@ public class Escritorio extends Computador{
         this.keyboard = keyboard;
     }
     public double calcularPrecio(){
-        // totalg = camara + keyboard;
-        // System.out.println("total escritorio " + totalg);
+
         return super.calcularPrecio() + camara + keyboard;
     }
 }
