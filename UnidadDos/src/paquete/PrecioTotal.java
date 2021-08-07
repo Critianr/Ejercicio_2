@@ -11,7 +11,6 @@ public class PrecioTotal {
         this.totalLaptops=0.0;       
     }
     public PrecioTotal(Computador listaComputadores[]) {
-        // super();
         this.totalDesktops=0.0;
         this.totalLaptops=0.0;
         this.totalPCs=0.0;       

@@ -10,12 +10,10 @@ public Portatil() {
     this.extraCharger = EXTRACHARGER;    
 }
 public Portatil(int extraBatery){
-    // super();
     this.extraBatery = extraBatery;
     this.extraCharger = EXTRACHARGER;
    }
    public Portatil(int extraBatery, int extraCharger) {
-    // super();
     this.extraBatery = extraBatery;
     this.extraCharger = extraCharger;    
 }

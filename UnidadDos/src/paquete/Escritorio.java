@@ -8,13 +8,11 @@ public class Escritorio extends Computador{
     private int keyboard;
     
     public Escritorio(){
-        super();
         this.camara = CAMARA;
         this.keyboard = KEYBOARD;
     }
 
     public Escritorio(int camara){
-        // super();
         this.camara = camara;
         this.keyboard = KEYBOARD;
     }
